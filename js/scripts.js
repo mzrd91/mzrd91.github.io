@@ -1,5 +1,5 @@
 const skills = [
-    { name: "Python", logo: "images/skills/python-logo.svg", rating: 5, group: "programming-languages" },
+    { name: "Python", logo: "images/skills/Python-logo.svg", rating: 5, group: "programming-languages" },
     { name: "Flutter", logo: "images/skills/flutter-logoo.png", rating: 3, group: "programming-languages" },
     { name: "Dart", logo: "images/skills/dart-logo.png", rating: 3, group: "programming-languages" },
     { name: "Java", logo: "images/skills/java-logo.svg", rating: 3, group: "programming-languages" },
