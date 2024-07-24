@@ -1,8 +1,8 @@
 const skills = [
     { name: "Python", logo: "images/skills/Python-logo.svg", rating: 5, group: "programming-languages" },
     { name: "Flutter", logo: "images/skills/flutter-logoo.png", rating: 3, group: "programming-languages" },
-    { name: "Dart", logo: "images/skills/dart-logo.png", rating: 3, group: "programming-languages" },
-    { name: "Java", logo: "images/skills/java-logo.svg", rating: 3, group: "programming-languages" },
+    { name: "Dart", logo: "images/skills/Dart-logo.png", rating: 3, group: "programming-languages" },
+    { name: "Java", logo: "images/skills/Java-logo.svg", rating: 3, group: "programming-languages" },
     { name: "C/C++", logo: "images/skills/C-logo.svg", rating: 4, group: "programming-languages" },
     { name: "HTML", logo: "images/skills/HTML5-logo.svg", rating: 4, group: "web-development" },
     { name: "CSS", logo: "images/skills/CSS3-logo.svg", rating: 4, group: "web-development" },
@@ -10,11 +10,11 @@ const skills = [
     { name: "SQL", logo: "images/skills/Sql_logo.png", rating: 5, group: "database-management" },
     { name: "MySQL", logo: "images/skills/mysql.svg", rating: 4, group: "database-management" },
     { name: "R", logo: "images/skills/R-logo.svg", rating: 5, group: "database-management" },
-    { name: "Tableau", logo: "images/skills/tabl_Logo.png", rating: 5, group: "database-management" },
+    { name: "Tableau", logo: "images/skills/Tableau-Logo.png", rating: 5, group: "database-management" },
     { name: "Power BI", logo: "images/skills/powerbi.png", rating: 4, group: "database-management" },
     { name: "TensorFlow", logo: "images/skills/Tensorflow-logo.svg", rating: 5, group: "machine-learning" },
     { name: "Keras", logo: "images/skills/Keras-logo.svg", rating: 5, group: "machine-learning" },
-    { name: "PyTorch", logo: "images/skills/Pytorch-logo.svg", rating: 4, group: "machine-learning" }
+    { name: "PyTorch", logo: "images/skills/PyTorch-logo.svg", rating: 4, group: "machine-learning" }
 ];
 
 const createSkillItem = (skill) => {
