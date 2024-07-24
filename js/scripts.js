@@ -12,9 +12,9 @@ const skills = [
     { name: "R", logo: "images/skills/R-logo.svg", rating: 5, group: "database-management" },
     { name: "Tableau", logo: "images/skills/tabl_Logo.png", rating: 5, group: "database-management" },
     { name: "Power BI", logo: "images/skills/powerbi.png", rating: 4, group: "database-management" },
-    { name: "TensorFlow", logo: "images/skills/tensorflow-logo.svg", rating: 5, group: "machine-learning" },
-    { name: "Keras", logo: "images/skills/keras-logo.svg", rating: 5, group: "machine-learning" },
-    { name: "PyTorch", logo: "images/skills/pytorch-logo.svg", rating: 4, group: "machine-learning" }
+    { name: "TensorFlow", logo: "images/skills/Tensorflow-logo.svg", rating: 5, group: "machine-learning" },
+    { name: "Keras", logo: "images/skills/Keras-logo.svg", rating: 5, group: "machine-learning" },
+    { name: "PyTorch", logo: "images/skills/Pytorch-logo.svg", rating: 4, group: "machine-learning" }
 ];
 
 const createSkillItem = (skill) => {
