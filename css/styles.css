@@ -476,7 +476,16 @@ section ul li {
 =============
 =============
 */
+/* Mobile styles */
+@media (max-width: 600px) {
+    #skills-container {
+        grid-template-columns: 1fr;
+    }
 
+    .skills-box {
+        margin: 10px 0;
+    }
+}
 
 .title {
     position: absolute;
