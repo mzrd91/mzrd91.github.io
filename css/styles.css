@@ -644,3 +644,44 @@ section ul li {
     font-size: 14px;
     color: #666;
 }
+
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items at the top */
+    flex-wrap: wrap; /* Wrap items on smaller screens */
+}
+
+.contact-info, .map-container {
+    flex: 1;
+    margin: 10px;
+}
+
+.map-container {
+    max-width: 500px; /* Limit the width of the map container */
+}
+
+.map-container h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem; /* Adjust the font size as needed */
+    color: #333; /* Adjust the color as needed */
+    text-align: left; /* Align text to the left */
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column; /* Stack columns on smaller screens */
+        align-items: center;
+    }
+
+    .contact-info, .map-container {
+        max-width: 100%;
+        text-align: center; /* Center text on smaller screens */
+    }
+
+    .map-container h3 {
+        text-align: center; /* Center the heading on smaller screens */
+    }
+}
