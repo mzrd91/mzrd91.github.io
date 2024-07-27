@@ -10,7 +10,7 @@ const skills = [
     { name: "SQL", logo: "images/skills/Sql_logo.png", rating: 5, group: "database-management" },
     { name: "MySQL", logo: "images/skills/mysql.svg", rating: 4, group: "database-management" },
     { name: "R", logo: "images/skills/R-logo.svg", rating: 5, group: "database-management" },
-    { name: "Tableau", logo: "images/skills/Tableau-Logo.png", rating: 5, group: "database-management" },
+    { name: "Tableau", logo: "images/skills/tabl_logo.png", rating: 5, group: "database-management" },
     { name: "Power BI", logo: "images/skills/powerbi.png", rating: 4, group: "database-management" },
     { name: "TensorFlow", logo: "images/skills/Tensorflow-logo.svg", rating: 5, group: "machine-learning" },
     { name: "Keras", logo: "images/skills/Keras-logo.svg", rating: 5, group: "machine-learning" },
