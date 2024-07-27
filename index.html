@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryan's Personal Website</title>
+    <link rel="icon" href="images/title.jpg" type="image/title.jpg">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="cover">
+        <div class="welcome-text">Welcome</div>
+        <div id="date-time" class="date-time"></div>
+        <img src="images/cover2.jpg" alt="Cover Image" class="cover-image">
+        <h2 class="greeting">Mohammad (Ryan) Zaroudi</h2>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#qualification">Qualification</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="hero">
+        <div class="hero-image">
+            <img src="images/profile2.jpg" alt="Ryan">
+        </div>
+        <div class="hero-text">
+            <h1>Hi, I'm Ryan!</h1>
+            <p>This is Ryan, and welcome to my personal page. I'm a computer science 
+                graduate from University of Missouri-St. Louis 
+                (<a href="https://www.umsl.edu/" target="_blank">UMSL</a>). I have also completed 
+                an internship working as a Data Analyst, hold two master's degrees in Computer Science 
+                and IT and an official certificate in Artificial Intelligence (AI). Currently, 
+                I reside in Saint Louis, MO, USA.</p>
+        </div>
+    </div>
+    
+    <main>
+        <hr>
+        
+        <section id="qualification">
+            <h2>Qualification</h2>
+            <div class="timeline" id="timeline">
+                <div class="title left">Education</div>
+                <div class="title right">Experience</div>
+                <!-- Timeline items will be inserted here by JavaScript -->
+            </div>
+        </section>
+        
+        <hr>
+        
+        <section id="skills">
+            <h2>Skills</h2>
+            <div id="skills-container">
+                <div class="skills-box" id="programming-languages">
+                    <h3>Programming Languages</h3>
+                </div>
+                <div class="skills-box" id="web-development">
+                    <h3>Web Development</h3>
+                </div>
+                <div class="skills-box" id="database-management">
+                    <h3>Database/Visualization Tools</h3>
+                </div>
+                <div class="skills-box" id="machine-learning">
+                    <h3>Machine Learning/AI Tools</h3>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+        
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p>Reach out via:  
+                        <a href="mailto:m.zrd91@gmail.com" class="email-link">
+                            Email
+                            <img src="images/email_logo.png" alt="Email" class="email-logo">
+                        </a>
+                    </p>
+                    <p>Connect with me on 
+                        <a href="https://www.linkedin.com/in/mohammad-zaroudi" class="linkedin-link">
+                            LinkedIn 
+                            <img src="images/linkedin-logo.png" alt="LinkedIn" class="linkedin-logo">
+                        </a>
+                    </p>
+                    <p>Follow my projects on
+                        <a href="http://www.github.com/mzrd91" class="GitHub-link">
+                            GitHub
+                            <img src="images/git-logo.png" alt="GitHub" class="git-logo">
+                        </a>
+                    </p>
+                </div>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.0032292146984!2d-90.19940478464777!3d38.62700297961633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d8b31b8fa9b635%3A0x24a280ac82ff2b76!2sSt.%20Louis%2C%20MO!5e0!3m2!1sen!2sus!4v1594688546823!5m2!1sen!2sus"
+                        allowfullscreen=""
+                        aria-hidden="false"
+                        tabindex="0"></iframe>
+                    <a href="https://www.google.com/maps?q=St.+Louis,+MO,+USA" target="_blank">Click to View Larger</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script>
+        function updateDateTime() {
+            const now = new Date();
+            const dateTimeString = now.toLocaleString(); // Adjust this to your preferred format
+            document.getElementById('date-time').textContent = dateTimeString;
+        }
+
+        // Update the date and time every second
+        setInterval(updateDateTime, 1000);
+
+        // Initial call to display the date and time immediately when the page loads
+        updateDateTime();
+    </script>
+    <script src="js/scripts.js"></script> <!-- Add this line before the closing </body> tag -->
+</body>
+</html>
