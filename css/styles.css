@@ -685,3 +685,57 @@ section ul li {
         text-align: center; /* Center the heading on smaller screens */
     }
 }
+
+
+/* Mobile styles */
+@media (max-width: 600px) {
+    .timeline {
+        padding: 0;
+    }
+
+    .timeline::after {
+        display: none; /* Hide the vertical line */
+    }
+
+    .timeline-item::after {
+        display: none; /* Hide the circle */
+    }
+
+    .timeline-item.left::before, .timeline-item.right::before {
+        display: none; /* Hide the arrows */
+    }
+
+    .title.left, .title.right {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        margin: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .timeline-item.right {
+        display: none; /* Hide the right-side items (Experience) */
+    }
+
+    .timeline-content {
+        opacity: 1;
+        transform: none;
+        padding: 10px;
+        text-align: center; /* Center-align content */
+    }
+
+    .timeline {
+        margin: 20px auto;
+    }
+
+    .timeline-item {
+        width: 95%;
+        margin: 20px auto;
+        text-align: center;
+        position: relative; 
+        left: 0;
+        transform: none; /* Remove any transforms */
+    }
+
+}
