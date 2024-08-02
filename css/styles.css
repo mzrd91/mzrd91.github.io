@@ -1,6 +1,6 @@
 header.cover {
     position: relative;
-    height: 50vh; /* Adjust height as needed */
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,7 +14,7 @@ header.cover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /*z-index: -1;  Ensure the image is behind the text */
+    /*z-index: -1; */
 }
 
 .date-time {
@@ -56,9 +56,9 @@ header.cover {
     font-family: 'Courier New', Courier, monospace;
     font-size: 65px;
     margin: 0;
-    color: white; /* Adjust color as needed */
-    /*transform: rotate(-10deg);  Slightly incline upwards */
-    text-shadow: 2px 2px 4px rgba(18, 18, 18, 0.5); /* Optional: adds a shadow to the text for better readability */
+    color: white;
+    /*transform: rotate(-10deg); */
+    text-shadow: 2px 2px 4px rgba(18, 18, 18, 0.5);
     z-index: 1;
 }
 
@@ -89,21 +89,21 @@ body {
 
 .title {
     position: absolute;
-    top: 0; /* Adjust this value as needed */
-    font-size: 24px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the title bold */
+    top: 0; 
+    font-size: 24px; 
+    font-weight: bold;
 }
 
 .title.left {
-    left: 165px; /* Position it to the left */
-    transform: translateX(-50%); /* Center the title on the left side */
+    left: 165px; 
+    transform: translateX(-50%); 
     margin-top: -15px;
     margin-bottom: 20px;
 }
 
 .title.right {
-    right: 165px; /* Position it to the right */
-    transform: translateX(50%); /* Center the title on the right side */
+    right: 165px; 
+    transform: translateX(50%); 
     margin-top: -15px;
 }
 
@@ -117,8 +117,8 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: left;
-    width: 400px; /* Adjust width as needed */
-    margin-top: 20px; /* Add margin to the top */
+    width: 400px; 
+    margin-top: 20px; 
 }
 
 .skills-section h2 {
@@ -135,8 +135,8 @@ body {
 }
 
 .skill img.logo {
-    width: 30px; /* Adjust size as needed */
-    height: 30px; /* Adjust size as needed */
+    width: 30px; 
+    height: 30px; 
     margin-right: 10px;
 }
 
@@ -151,8 +151,8 @@ body {
 }
 
 .stars .star-filled, .stars .star-empty {
-    width: 20px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
+    width: 20px; 
+    height: 20px; 
     margin-left: 3px;
 }
 
@@ -203,7 +203,7 @@ header {
 }
 
 nav {
-    background-color:rgba(245, 241, 241, 0.415); /* Light blue color */
+    background-color:rgba(245, 241, 241, 0.415); 
     padding: 10px;
     text-align: center;
 }
@@ -213,7 +213,7 @@ nav ul {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: left; /* Align items to the right */
+    justify-content: left;
 }
 
 nav ul li {
@@ -229,7 +229,7 @@ nav ul li a {
 
 .hero {
     display: flex;
-    flex-direction: column; /* Stack the image and text vertically on smaller screens */
+    flex-direction: column; 
     align-items: center;
     text-align: center;
     padding: 20px;
@@ -300,18 +300,18 @@ nav ul li a {
 }
 
 .hero-text {
-    max-width: 800px; /* Set a maximum width for the text container */
+    max-width: 800px; 
     margin: 0 auto;
     padding: 20px;
 }
 
 .welcome-text {
-    font-size: 4rem; /* Default font size for larger screens */
+    font-size: 4rem; 
 }
 
 @media (max-width: 600px) {
     .welcome-text {
-        font-size: 1.5rem; /* Smaller font size for phone screens */
+        font-size: 1.5rem; 
     }
 }
 
@@ -322,12 +322,12 @@ nav ul li a {
     }
 
     .hero-image {
-        max-width: 50%; /* Adjust the image size on larger screens */
+        max-width: 50%; 
         margin-right: 20px;
     }
 
     .hero-text {
-        max-width: 50%; /* Adjust the text container size on larger screens */
+        max-width: 50%; 
     }
 }
 
@@ -479,21 +479,21 @@ section ul li {
 
 .title {
     position: absolute;
-    top: 0; /* Adjust this value as needed */
-    font-size: 24px; /* Adjust the font size as needed */
-    font-weight: bold; /* Make the title bold */
+    top: 0; 
+    font-size: 24px; 
+    font-weight: bold; 
 }
 
 .title.left {
-    left: 165px; /* Position it to the left */
-    transform: translateX(-50%); /* Center the title on the left side */
+    left: 165px; 
+    transform: translateX(-50%);
     margin-top: -15px;
     margin-bottom: 20px;
 }
 
 .title.right {
-    right: 165px; /* Position it to the right */
-    transform: translateX(50%); /* Center the title on the right side */
+    right: 165px; 
+    transform: translateX(50%); 
     margin-top: -15px;
     
 }
@@ -523,7 +523,7 @@ section ul li {
     background-color: inherit;
     width: 50%;
     text-align: center;
-    margin-top: 5px; /* Ensure space between the title and the first box */
+    margin-top: 5px; 
 }
 .timeline-item.left {
     left: -10%;
@@ -570,7 +570,7 @@ section ul li {
     top: 15px;
     border-radius: 50%;
     z-index: 1;
-    cursor: pointer; /* Added to indicate interactivity */
+    cursor: pointer; 
 }
 
 .timeline-item.right::after {
@@ -580,24 +580,24 @@ section ul li {
 .timeline-item:hover::before {
     content: attr(data-date);
     position: absolute;
-    background-color: lightblue; /* Changed to light blue */
-    color: black; /* Changed text color to black */
-    padding: 10px 15px; /* Padding inside the box */
+    background-color: lightblue; 
+    color: black; 
+    padding: 10px 15px; 
     border-radius: 5px;
-    top: -60px; /* Position above the circle, adjusted for box height */
+    top: -60px; 
     left: 50%;
     transform: translateX(-50%);
     white-space: nowrap;
     z-index: 10;
     opacity: 1;
-    pointer-events: none; /* Ensure the tooltip doesn't interfere with cursor events */
-    font-size: 18px; /* Made the font 6px bigger */
+    pointer-events: none; 
+    font-size: 18px;
     text-align: center;
-    width: 220px; /* Manually set width */
-    height: auto; /* Manually set height */
+    width: 220px; 
+    height: auto; 
     line-height: 1.2;
-    font-family: Arial; /* Changed font to Arial */
-    font-weight: bold; /* Made the font bold */
+    font-family: Arial;
+    font-weight: bold; 
 }
 
 .timeline-content {
@@ -626,15 +626,15 @@ section ul li {
     }
 
     .timeline::after {
-        display: none; /* Hide the vertical line */
+        display: none; 
     }
 
     .timeline-item::after {
-        display: none; /* Hide the circle */
+        display: none; 
     }
 
     .timeline-item.left::before, .timeline-item.right::before {
-        display: none; /* Hide the arrows */
+        display: none; 
     }
 
     .title.left, .title.right {
@@ -647,14 +647,14 @@ section ul li {
     }
 
     .timeline-item.right {
-        display: none; /* Hide the right-side items (Experience) */
+        display: none;
     }
 
     .timeline-content {
         opacity: 1;
         transform: none;
         padding: 10px;
-        text-align: center; /* Center-align content */
+        text-align: center; 
     }
 
     .timeline {
@@ -667,7 +667,7 @@ section ul li {
         text-align: center;
         position: relative; 
         left: 0;
-        transform: none; /* Remove any transforms */
+        transform: none; 
     }
 
 }
@@ -701,8 +701,8 @@ section ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start; /* Align items at the top */
-    flex-wrap: wrap; /* Wrap items on smaller screens */
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .contact-info, .map-container {
@@ -711,28 +711,28 @@ section ul li {
 }
 
 .map-container {
-    max-width: 500px; /* Limit the width of the map container */
+    max-width: 500px; 
 }
 
 .map-container h3 {
     margin-bottom: 10px;
-    font-size: 1.5rem; /* Adjust the font size as needed */
-    color: #333; /* Adjust the color as needed */
-    text-align: left; /* Align text to the left */
+    font-size: 1.5rem;
+    color: #333; 
+    text-align: left; 
 }
 
 @media (max-width: 768px) {
     .contact-container {
-        flex-direction: column; /* Stack columns on smaller screens */
+        flex-direction: column;
         align-items: center;
     }
 
     .contact-info, .map-container {
         max-width: 100%;
-        text-align: center; /* Center text on smaller screens */
+        text-align: center;
     }
 
     .map-container h3 {
-        text-align: center; /* Center the heading on smaller screens */
+        text-align: center; 
     }
 }
