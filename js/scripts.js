@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             type: 'experience',
-            title: 'Graduate Teaching Assistant, Grading, Monitoring and Teaching, MO, USA',
+            title: 'Graduate Teaching Assistant',
             date: '01/2023 – 12/2023',
             description: 'University of Missouri-St. Louis'
         },
