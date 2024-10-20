@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'education',
             title: 'Proposal Specialist',
             date: '10/2024 – 03/2025',
-            logo: 'images/Education/spectrum.jpg',
+            logo: 'images/Education/Spectrum.JPG',
             description: 'Spectrum Enterprise, (Contract)'
         },
         {
