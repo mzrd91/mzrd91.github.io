@@ -55,6 +55,13 @@ document.addEventListener('DOMContentLoaded', function () {
     const timelineData = [
         {
             type: 'education',
+            title: 'Proposal Specialist',
+            date: '10/2024 – 03/2025',
+            logo: 'images/Education/spectrum.jpg',
+            description: 'Spectrum Enterprise, (Contract)'
+        },
+        {
+            type: 'education',
             title: 'MSc. in Computer Science',
             date: '01/2022 – 12/2023',
             logo: 'images/Education/umsl.png',
