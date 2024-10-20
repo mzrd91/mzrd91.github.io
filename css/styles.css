@@ -647,7 +647,7 @@ section ul li {
     }
 
     .timeline-item.right {
-        display: none;
+        display: block;
     }
 
     .timeline-content {
