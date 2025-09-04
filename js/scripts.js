@@ -54,6 +54,13 @@ skills.forEach(skill => {
 document.addEventListener('DOMContentLoaded', function () {
     const timelineData = [
         {
+            type: 'experience',
+            title: 'Grants Specialist',
+            date: '05/2022 – Present',
+            logo: 'images/Education/seal_cropped.png',
+            description: 'Ho-Chunk Nation'
+        },
+        {
             type: 'education',
             title: 'Proposal Specialist',
             date: '10/2024 – 03/2025',
