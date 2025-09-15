@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function () {
             type: 'experience',
             title: 'Grants Specialist',
             date: '05/2025 – Present',
-            logo: 'images/seal_cropped.png',
+            logo: 'images/Education/seal.jpg',
             description: 'Ho-Chunk Nation'
         },
         {
